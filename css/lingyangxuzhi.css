@@ -1,0 +1,192 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* 内减模式 */
+    box-sizing: border-box;
+}
+
+li{
+    /* 清除li前面的圆点 */
+    list-style: none;
+}
+
+a{
+    /* 清除下划线 */
+    text-decoration: none;
+}
+
+/* 清除浮动 */
+.clearfix:before,.clearfix:after{
+    content:"";
+    display:table;
+}
+.clearfix:after{
+    clear: both;
+}
+
+body{
+    background-color:#efeae5;
+}
+
+/* 版心 */
+.wrapper{
+    width: 1200px;
+    margin:0 auto;
+}
+
+/* 头部 */
+.header{
+    height: 42px;
+    margin: 30px auto;
+}
+
+/* logo */
+h1{
+    float: left;
+}
+
+/* 导航 */
+.nav{
+    float: left;
+    margin-left: 70px;
+    height: 42px;
+}
+
+.nav li{
+    float: left;
+    margin-right: 26px;
+}
+
+.nav li a{
+    display: block;
+    padding: 0 9px;
+    height: 42px;
+    line-height: 42px;
+    /* border-bottom: 2px solid #00a4ff; */
+    font-size: 18px;
+    color: #050505;
+}
+
+.nav li a:hover{
+    border-bottom: 2px solid #00a4ff;
+}
+
+/* 搜索 */
+.search{
+    float: left;
+    margin-left: 59px;
+    width: 412px;
+    height: 40px;
+    border: 1px solid #00a4ff;
+}
+
+.search input{
+    float: left;
+    padding-left: 20px;
+    /* 左右加一起的尺寸要小于410 */
+    width: 360px;
+    height: 38px;
+    border: 0;
+}
+
+.seach input::placeholder{
+    /* 控制placeholder的样式 */
+    font-size: 14px;
+    color: #bfbfbf;
+}
+
+.search button{
+    float: left;
+    width: 50px;
+    height: 40px;
+    background-image: url(../images/btn.png);
+    border: 0;
+}
+
+/* 用户 */
+.user{
+    float: right;
+    margin-right: 35px;
+    height: 42px;
+    line-height: 42px;
+}
+
+.user img{
+    /* 调节图片垂直对齐方式，middle：居中 */
+    vertical-align: middle;
+}
+
+/* nowSite */
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.nowSite a, .nowSite {
+    font-size: 14px;
+    color: #988983;
+}
+
+.nowSite {
+    padding: 20px 0;
+}
+
+/* 内容 */
+.article-section{
+    margin: 50px auto;
+    max-width: 800px;
+    padding: 0 20px;
+    background-color: #fcf7f2;
+  }
+  
+  .article-section h2{
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .article-meta{
+    color: #999;
+    font-size: 16px;
+    margin-bottom: 40px;
+  }
+  
+  .article-content p{
+    line-height: 1.6;
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+ 
+  .article-comments p{
+    font-size: 18px;
+  }
+
+  /* 版权 */
+
+
+.footer{
+    margin-top: 50px;
+    padding: 30px 0;
+    color: #d1b3a6;
+    font-size: 12px;
+    background-color: #37302d; 
+}
+
+.footer .rows{
+    padding-bottom: 20px;
+    
+}
+
+.footer .leftName{
+    color: #7e6e68;
+    float: left;
+    width: 80px;
+}
+
+.footer .rightCnt{
+    overflow: hidden;
+    line-height: 23px;
+    width: 750px;
+}
+
+   
